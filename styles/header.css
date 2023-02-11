@@ -48,6 +48,12 @@
     text-align: center;
 }
 
+.lista-branco{
+    display: flex;
+    flex-direction: row;
+   padding: 0 20em 0 0;
+}
+
 .botao {
     display: flex;
     flex-direction: row;
