@@ -1,0 +1,18 @@
+@import url("styles/header.css");
+
+:root{
+    --cinza-titulo: #3A404E;
+    --fonte-principal: "Inter";
+    --branco: #FFFFFF;
+    --cinza-principal: #667085;
+    --vinho-botao: #8E2424;
+    --preto-texto: #101828;
+    --cor-de-fundo: #FAFFFF;
+}
+
+body {
+    background-color: var(--cor-de-fundo);
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 400;
+}
