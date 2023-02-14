@@ -16,6 +16,8 @@
     --vinho-botao: #8E2424;
     --preto-texto: #101828;
     --cor-de-fundo: #FAFFFF;
+    --vinho-degrade: rgba(142, 36, 36, 0.05);
+    --cinza-borda: #EAECF0;
 }
 
 body {
