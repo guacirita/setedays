@@ -98,7 +98,6 @@
  .sobre-titulo {
      display: flex;
      flex-direction: row;
-     /* align-items: center; */
      text-align: center;
      gap: 4rem;
      color: var(--preto-texto);
@@ -114,7 +113,6 @@
      padding: 0.75rem 0.25rem;
      font-size: 1.250rem;
      font-weight: 400;
-     /* line-height: 1.875rem; */
      color: var(--cinza-principal);
      width: 52%;
  }
@@ -144,26 +142,9 @@
      }
 
      .sobre {
-        display: block;
-        justify-content: space-between;
-        align-items: center;
         width: auto;
-     }
-
-     .sobre-titulo {
-        display: flex;
-        justify-content: center;
-         align-items: stretch;
-         /* gap: 40px;
-         font-size: 30px;  */
-     }
-
-     .sobre-texto {
-         /* padding: .5em 1.5em; */
-         /* width: 70vw; */
-         align-items: center;
-     }
-
+        gap: 1rem;
+    }
      
  }
 
@@ -179,8 +160,6 @@
      }
 
      .sobre {
-         width: 50%;
-         /* height: 18vh;
-         padding: .5em 0; */
+         width: auto;
      }
  }
