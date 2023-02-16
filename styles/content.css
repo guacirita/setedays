@@ -103,6 +103,129 @@
     color: var(--cinza-principal);
 }
 
+
+.depoimentos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    gap: 1.5rem;
+    width: 100%;
+    /* height: 40%; */
+    gap: 2rem;
+    padding: 0 2rem;
+}
+
+.depoimentos__container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background: rgba(196, 25, 25, 0.03);
+    border-radius: 1rem;
+    padding: 4rem;
+    gap: 2rem;
+    width: 80%;
+    margin: 0 7rem 4rem 7rem;
+
+}
+
+.depoimentos__container-titulo{
+    font-size: 0.875rem;
+    font-weight: 600;
+    color: var(--vinho-botao);
+}
+
+.depoimentos__container-descricao{
+    font-size: 2.25rem;
+    font: 500;
+    color: var(--preto-texto);
+    /* letter-spacing: -2%; */
+    align-items: center;
+    gap: 1rem;
+    
+}
+.depoimentos__container-info{
+    display: flex;
+    flex-direction: column;
+}
+
+.depoimentos__container-imagem{
+    width: 8%;
+    height: 8%;
+    margin: 0 33rem 0 31rem;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+}
+.depoimentos__container-nome{
+    font-size: 1rem;
+    font-weight: 500;
+    color: var(--preto-texto);
+    gap: 0.25rem;
+}
+
+.depoimentos__container-tarefa{
+    font-size: 0.875rem;
+    font-weight: 400;
+    color: var(--cinza-principal);
+}
+
+.rodape{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    gap: 2rem;
+}
+
+.rodape__descricao{
+    display: flex;
+    flex-direction: column;
+    padding: 6rem 0;
+    gap: 2rem;
+}
+
+.rodape__titulo{
+    font-size: 2.25rem;
+    font-weight: 600;
+    letter-spacing: -2%;
+    color: var(--preto-texto);
+}
+
+.rodape__texto{
+    font-size: 1.250rem;
+    font-weight: 400;
+    color: var(--cinza-principal);
+}
+
+/* .rodape__botao{
+    gap: 1.2rem;
+} */
+
+.rodape__botao-email{
+    font-size: 1rem;
+    font-weight: 400;
+    color: var(--cinza-principal);
+    padding: .5rem 2rem;
+}
+
+.rodape__botao-cadastro{
+    font-size: 1rem;
+    color: var(--branco);
+    font-weight: 500;
+    background-color: var(--vinho-botao);
+    border: 1px solid;
+    border-radius: 8px;
+    padding: .6rem 2rem;
+}
+
+.rodape__creditos{
+    font-size: 1rem;
+    font-weight: 400;
+    color: var(--cinza-principal);
+}
+
 @media screen and (max-width: 428px){
     .metricas-container{
         display: flex;
